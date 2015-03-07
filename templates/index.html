@@ -18,13 +18,13 @@
         	</tr>
         {% for row in object_list %}
         	<tr>
-        		<td><a href="{{ object_list.id }}/">{{ row.name }}</a></td>
-        		<td>{{row.date }}</td>
-        		<td>{{row.type }}</td>
-        		<td>{{row.address }}</td>
-        		<td>{{row.age }}</td>
-        		<td>{{row.gender }}</td>
-        		<td>{{row.race }}</td>
+        		<td><a href="/{{ row.id }}/">{{ row.full_name }}</a></td>
+        		<td>{{ row.date }}</td>
+        		<td>{{ row.type }}</td>
+        		<td>{{ row.address }}</td>
+        		<td>{{ row.age }}</td>
+        		<td>{{ row.gender }}</td>
+        		<td>{{ row.race }}</td>
 
         		</tr>
 
